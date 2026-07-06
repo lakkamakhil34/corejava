@@ -12,8 +12,8 @@ public class TestDemo5 {
 		System.out.println(10/0);
 		
 		
-		TestDemo5 t= new TestDemo5();
 		
 	}
 
 }
+
