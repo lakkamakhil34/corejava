@@ -7,6 +7,7 @@ public class TestIdentifiersDemo1 {
 	
 	void method$_1(){
 		
+		
 		System.out.println("Hello method1");
 	}
 	public static void main(String[] args) {
