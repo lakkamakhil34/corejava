@@ -13,7 +13,7 @@ public class Student2 {
 		int a=100;
 		
 //the local variable a may not have been initialized
-//JVM does not provide default values for local varables,
+//JVM does not provide default values for local variables,
 // we must need to initialize. 		
 		System.out.println(a);
 		
