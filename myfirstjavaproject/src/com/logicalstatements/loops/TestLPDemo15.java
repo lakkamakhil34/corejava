@@ -2,28 +2,23 @@ package com.logicalstatements.loops;
 
 import java.util.Scanner;
 
-public class PrimeCheck {
+//Q)WAP to print the digit count of a given number
+public class TestLPDemo15 {
 
 	public static void main(String[] args) {
 		System.out.println("main method started");
-		
 		Scanner sc=new Scanner(System.in);
+
 		System.out.println("Enter a number:");
 		int n=sc.nextInt();
-		
 		int count=0;
 		
-		for(int i=1;i<=n;i++) {
-			if(n%i==0) {
-				count++;
-			}
+		while(n>0) {
+			n=n/10;//123/10-->12-->1-->0
+			count++;
 		}
-		if(count==2) {
-			System.out.println(n+"is a prime number.");
-		}else {
-			System.out.println(n+"is not a prime number");
-		}
-		
+
+		System.out.println("The count is:"+count);
 
 	}
 
