@@ -14,10 +14,10 @@ public class TestAccessDemo3 {
 //but, your data members are default so we cannot access outside of the packages.		
 
 	//accessing the public data members outside the packages		
-				System.out.println(t1.a2);
-				System.out.println(t1.name2);
-				t1.method2();
-		
+//				System.out.println(t1.a2);
+//				System.out.println(t1.name2);
+//				t1.method2();
+//		
 		
 		
 //accessing the public data members outside the packages		
@@ -25,6 +25,16 @@ public class TestAccessDemo3 {
 		System.out.println(t1.name3);
 		t1.method3();
 
+//		//accessing the protected data members within the class
+//		
+//		System.out.println(t1.a4);
+//		System.out.println(t1.name4);
+//		t1.method4();
+						
+		TestAccessDemo3 t3=new TestAccessDemo3();
+		System.out.println(t3.a4);
+		System.out.println(t3.name4);
+		t3.method4();
 		
 		
 	}
