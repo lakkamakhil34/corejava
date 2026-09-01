@@ -11,11 +11,6 @@ class Student1{
 		this.address1 =address1;
 }
 
-	public Student1(int sid, String sname, Address1 address1) {
-		this.sid = sid;
-		this.sname = sname;
-		this.address1 =address1;
-	}
 	public Student1(Student1 st1) {
 		this.sid = st1.sid;
 		this.sname = st1.sname;
