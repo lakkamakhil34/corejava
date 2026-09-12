@@ -2,7 +2,7 @@ package com.accessmodifiers02;
 
 import com.accessmodifiers01.TestAccessDemo1;
 
-public class TestAccessDemo3 {
+public class TestAccessDemo3 extends TestAccessDemo1 {
 
 	public static void main(String[] args) {
 		System.out.println("main method started");
@@ -38,5 +38,7 @@ public class TestAccessDemo3 {
 		
 		
 	}
+
+	
 
 }
