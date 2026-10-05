@@ -16,6 +16,6 @@ public class TestExDemo4 {
 			e.printStackTrace();
 		
 		System.out.println("main method ended");
+		}
 	}
-
 }
